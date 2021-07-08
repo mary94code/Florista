@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./photos/background-contact-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#contact-us {
+    display: flex;
+    justify-content: center;
+}
+
+.container-4 {
+    margin: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgb(243, 210, 233);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(228, 221, 221);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h3,
+p {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.sent-bottom {
+    margin: 15px 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.location {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.container-4 button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    background-image: linear-gradient(rgb(238, 183, 183), rgb(209, 181, 181));
+
+}
+
+.container-4 button:hover {
+    transform: scale(1.05);
+}
+
+@media all and (min-width: 900px) {
+    
+    .container-4 {
+        display: flex;
+        flex-direction: row;
+        margin: 160px 50px;
+      
+    }
+
+    .working-hrs {
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
