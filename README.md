@@ -1,2 +1,2 @@
 # Florista
-![](desktop-design.jpg)
+![](desktop-design.JPG)
